@@ -23,3 +23,6 @@ jobs:
 
     - name: Flutter Doctor
       run: flutter doctor
+    
+    - name: Build aab
+      run: flutter build appbundle --no-shrink
